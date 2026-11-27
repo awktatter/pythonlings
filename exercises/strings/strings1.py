@@ -1,6 +1,7 @@
 # Exercise: Strings 1
-# I AM NOT DONE
+# I AM  DONE
 #
 # Assign the string "hello" to the variable `greeting`.
 
-greeting = ???
+greeting = "hello"
+

@@ -1,5 +1,5 @@
 # Exercise: Conditionals 1
-# I AM NOT DONE
+# I AM DONE
 #
 # Python's simplest conditional: if the condition is True, the indented
 # block runs; otherwise nothing happens.
@@ -11,5 +11,5 @@
 is_sunny = True
 message = ""
 
-if ???:
+if is_sunny:
     message = "Let's go outside!"

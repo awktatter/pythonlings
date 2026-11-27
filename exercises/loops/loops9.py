@@ -1,5 +1,5 @@
 # Exercise: Loops 9
-# I AM NOT DONE
+# I AM DONE
 #
 # Loop over `scores` using `.items()` to find the highest score.
 # Store the name of the top scorer in `top_name` and their score in `top_score`.
@@ -9,3 +9,8 @@ scores = {"Alice": 88, "Bob": 95, "Carol": 72, "Dave": 95 - 1}
 top_name = None
 top_score = -1
 # write your for loop here
+
+for name, score in scores.items():
+    if top_score < score:
+        top_name = name
+        top_score = score

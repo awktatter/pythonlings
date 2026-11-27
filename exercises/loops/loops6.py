@@ -1,5 +1,5 @@
 # Exercise: Loops 6
-# I AM NOT DONE
+# I AM DONE
 #
 # Use a `for` loop and `continue` to collect only the even numbers from
 # `numbers` into the list `evens`.
@@ -8,3 +8,7 @@
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 evens = []
 # write your for loop here
+for num in numbers:
+    if num % 2 == 1:
+        continue
+    evens.append(num)

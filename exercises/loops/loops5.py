@@ -1,5 +1,5 @@
 # Exercise: Loops 5
-# I AM NOT DONE
+# I AM DONE
 #
 # Use a `while` loop and `break` to find the first number in `values` that
 # is greater than 10. Store it in `found`.
@@ -11,3 +11,8 @@ values = [3, 7, 2, 15, 8, 22]
 found = None
 i = 0
 # write your while loop here
+while i < len(values):
+    if values[i] > 10:
+        found = values[i]
+        break
+    i += 1

@@ -1,5 +1,5 @@
 # Exercise: Conditionals 9
-# I AM NOT DONE
+# I AM DONE
 #
 # The ternary (conditional) expression lets you pick a value in one line:
 #
@@ -9,4 +9,4 @@
 # Write it as a single return statement using a ternary expression.
 
 def absolute(n):
-    return ???
+    return n if n >= 0 else -n

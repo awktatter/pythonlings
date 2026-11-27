@@ -1,5 +1,5 @@
 # Exercise: Loops 4
-# I AM NOT DONE
+# I AM DONE
 #
 # Use a `for` loop over `numbers` to compute two accumulators:
 #   - `total`   : the sum of all numbers  (should be 55)
@@ -10,3 +10,6 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 total = 0
 product = 1
 # write your for loop here
+for num in numbers:
+    total += num
+    product *= num

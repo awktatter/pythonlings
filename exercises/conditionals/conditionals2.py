@@ -1,5 +1,5 @@
 # Exercise: Conditionals 2
-# I AM NOT DONE
+# I AM DONE
 #
 # An if/else gives two branches: one when the condition is True,
 # another when it is False.
@@ -10,4 +10,5 @@
 def sign(n):
     if n > 0:
         return "positive"
-    ???
+    else:
+        return "non-positive"

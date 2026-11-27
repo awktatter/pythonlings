@@ -1,5 +1,5 @@
 # Exercise: Loops 7
-# I AM NOT DONE
+# I AM DONE
 #
 # Use nested `for` loops to build a multiplication table as a list of lists.
 # `table[i][j]` should equal `(i + 1) * (j + 1)` for i, j in 0..2.
@@ -11,3 +11,8 @@
 
 table = []
 # write your nested for loops here
+for i in range(0, 3):
+    row = list()
+    for j in range(0, 3):
+        row.append((i + 1) * (j + 1))
+    table.append(row)

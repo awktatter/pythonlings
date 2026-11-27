@@ -1,5 +1,5 @@
 # Exercise: Loops 8
-# I AM NOT DONE
+# I AM DONE
 #
 # Use `enumerate` to loop over `words` and build a list of strings where
 # each entry is formatted as "N: word" (N is the 1-based index).
@@ -9,3 +9,6 @@
 words = ["python", "is", "fun"]
 labeled = []
 # write your for loop using enumerate here
+
+for i, word in enumerate(words, start=1):
+    labeled.append(f"{i}: {word}")

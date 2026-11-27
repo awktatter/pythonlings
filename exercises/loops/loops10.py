@@ -1,5 +1,5 @@
 # Exercise: Loops 10
-# I AM NOT DONE
+# I AM  DONE
 #
 # Combine looping techniques to process `transactions`.
 # Each transaction is a dict with keys "amount" (int) and "type" ("credit" or "debit").
@@ -20,3 +20,13 @@ transactions = [
 summary = []
 balance = 0
 # write your for loop here (use enumerate, continue, and update balance)
+for i, tx in enumerate(transactions, start=1):
+    if tx["amount"] == 0:
+        continue
+    if tx["type"] == "credit":
+        balance += tx["amount"]
+    else:
+        balance -= tx["amount"]
+
+    entry = { "index": i, "amount": tx["amount"], "balance": balance }
+    summary.append(entry)
